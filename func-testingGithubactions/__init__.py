@@ -19,6 +19,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully by GithubActions.")
     else:
         return func.HttpResponse(
-             "zzzzzz    This HTTP triggered function executed successfully by GithubActions during Demo. Pass a name in the query string or in the request body for a personalized response. Demo!",
+             "This Sprint Review Demo has started!",
              status_code=200
         )
